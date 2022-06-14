@@ -1,1 +1,35 @@
-/* write styles here */
+
+#container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    width: 850px;
+    margin: auto;
+    
+}
+.w100 {
+    width:100%;
+}
+
+#div-nav {
+    background-color: #516ed6 ;
+    height :60px;
+   
+}
+#div-main {
+    background-color: #bcd8ea;
+    display: flex;
+    flex-flow:row;
+    height: 200px;
+}
+
+#div-main-left {
+    background-color: rgb(164, 98, 16);
+    width: 600px;
+    flex-grow:1;
+}
+#div-main-right {
+    background-color: #2dce5d;
+    flex-grow: 1;
+}
